@@ -73,7 +73,8 @@ npm run dev
 
 ### Detalhes do Filme
 
-- Ao clicar em um filme, o usuário pode visualizar mais detalhes, como sinopse, elenco e avaliações.
+<!-- - Ao clicar em um filme, o usuário pode visualizar mais detalhes, como sinopse, elenco e avaliações. -->
+
 - O design é responsivo para uma experiência fluida em diferentes dispositivos.
 
 ## Componentes
