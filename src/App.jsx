@@ -10,7 +10,7 @@ const API_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 const API_OPTIONS = {
-  methot: 'GET',
+  method: 'GET',
   headers: {
     accept: 'application/json',
     authorization: `Bearer ${API_KEY}`
@@ -104,7 +104,7 @@ const App = () => {
               </ul>
             </section>
           )}
-          <img src='./hero-img.png' alt='hero banner' />
+          <img src='hero-img.png' alt='hero banner' />
           <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy Without Hassle</h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
