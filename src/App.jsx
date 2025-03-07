@@ -21,7 +21,7 @@ const App = () => {
 
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
   const [searchTerm, setSearchTerm] = useState('')
-  
+
   const [movieList, setMovieList] = useState([]);
   const [errorMessage, setErrormessage] = useState('')
   const [isLoading, setIsLoading] = useState(false);
