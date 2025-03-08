@@ -36,9 +36,7 @@ Esta é uma aplicação de busca e exibição de filmes, utilizando a API do The
 
 ```
 VITE_TMDB_API_KEY=SEU_API_KEY
-VITE_APPWRITE_PROJECT_ID=SEU_PROJECT_ID
-VITE_APPWRITE_DATABASE_ID=SEU_DATABASE_ID
-VITE_APPWRITE_COLLECTION_ID=SEU_COLLECTION_ID
+
 ```
 
 2. Instale as dependências:

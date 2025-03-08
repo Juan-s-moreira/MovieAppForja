@@ -94,6 +94,10 @@ const App = () => {
             <img src="logo.png" alt="" />
           </div> */}
 
+
+          <img src='hero-img.png' alt='hero banner' />
+          <h1>Encontre os <span className='text-gradient'>Filmes</span> que Você Gosta Sem Complicações</h1>
+          <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           {trendingMovies.length > 0 && (
             <section className='trending'>
               <h2 className='text-white'>Filmes em alta</h2>
@@ -108,9 +112,6 @@ const App = () => {
               </ul>
             </section>
           )}
-          <img src='hero-img.png' alt='hero banner' />
-          <h1>Encontre os <span className='text-gradient'>Filmes</span> que Você Gosta Sem Complicações</h1>
-          <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
         <section className='all-movies'>
           <h2 className='mt-10'>Todos os filmes</h2>
