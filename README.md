@@ -1,6 +1,6 @@
 # Movie App
 
-Esta é uma aplicação de busca e exibição de filmes, utilizando a API do The Movie Database (TMDB) para buscar informações sobre filmes e o Appwrite para armazenar e recuperar dados de buscas populares. A aplicação permite que os usuários pesquisem filmes, visualizem detalhes e descubram tendências populares.
+Movie App é uma aplicação de busca e exibição de filmes, utilizando a API The Movie Database (TMDB) para buscar informações sobre filmes e o Appwrite para armazenar e recuperar dados de buscas populares. A aplicação permite que os usuários pesquisem filmes, descubram tendências populares e futuramente visualizem detalhes sobre os filmes.
 
 ## Tecnologias Utilizadas
 
@@ -11,24 +11,6 @@ Esta é uma aplicação de busca e exibição de filmes, utilizando a API do The
 - **TMDB API** para buscar informações sobre filmes
 - **React Hooks** como `useEffect`, `useState` e `useDebounce` da `react-use`
 
-## Estrutura do Projeto
-
-```
-/movie-app
-│── src/
-│   │── components/
-│   │   │── Search.js
-│   │   │── Spinner.js
-│   │   │── MovieCard.js
-│   │── appwrite.js
-│   │── App.js
-│   │── index.js
-│── public/
-│── styles/
-│── .env
-│── package.json
-│── tailwind.config.js
-```
 
 ## Configuração do Ambiente
 
