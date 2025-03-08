@@ -90,9 +90,13 @@ const App = () => {
       <div className='wrapper'>
         <header>
 
+          {/* <div className='m-auto w-[6rem]'>
+            <img src="logo.png" alt="" />
+          </div> */}
+
           {trendingMovies.length > 0 && (
             <section className='trending'>
-              <h2>Filmes em alta</h2>
+              <h2 className='text-white'>Filmes em alta</h2>
 
               <ul>
                 {trendingMovies.map((movie, index) => (
@@ -109,7 +113,7 @@ const App = () => {
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
         <section className='all-movies'>
-          <h2>Todos os filmes</h2>
+          <h2 className='mt-10'>Todos os filmes</h2>
           {isLoading ? (
             <Spinner />
           ) : errorMessage ? (
